@@ -36,9 +36,9 @@
         "id":"5",
         "nomi": "IT test",
         "ta'rif": "Sizning IT boyicha umumiy bilimlaringizni tekshirish uchun.",
-        "darajalar": ["Umumiy"],
+        "darajalar": ["python","JavaScipt","Java",".Net","TypeScript","React","Django"],
         "davomiyligi": "tanlovga bog'liq",
-        "xususiyatlar": ["python","JavaScipt","Java",".Net"]
+        "xususiyatlar": ["IT dan o'zlashtirilgan ko'nikmalar bo'yicha testlar"]
       }
     ]
   }
