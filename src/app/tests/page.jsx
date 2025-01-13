@@ -135,7 +135,7 @@ const CourseComponent = () => {
               <div className="courses text-black grid grid-cols-2 gap-4">
                 {searchId.map((item) => (
                   <Button
-                    onClick={() => setCourse(item)}
+                    onClick={() => {setCourse(item),window.localStorage.setItem("test_type",`${searchOption.id}/${item.level}`)}}
                     className="w-full"
                     color="secondary"
                     variant="contained"

@@ -1,10 +1,4 @@
 "use static"
-
-import AboutUs from "./AboutUsPart/AboutUs";
-import ContactForm from "./components/ContactForm/ContactForm";
-import Achievements from "./Achievements/achievements";
-import ImagesComp from "./ImagesComp/ImagesComp";
-import Value_facts_part from "./value_facts_part/value_facts_part";
 import ValuePart from "./value_part/ValuePart";
 import Prices from "./Prices/Prices";
 import Testimonials from "./components/Testimonials/testimonials";
