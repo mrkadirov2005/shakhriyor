@@ -1,0 +1,45 @@
+{
+    "kurslar": [
+      {
+        "id":"1",
+        "nomi": "Ingliz tili testi",
+        "ta'rif": "Yevropa Tillari Umumiy Tavsifiga moslashtirilgan kurs.",
+        "darajalar": ["A1", "A2", "B1", "B2", "C1", "C2"],
+        "davomiyligi": "30 min",
+        "xususiyatlar": ["Til bilimi", "Ko'nikmalarni baholash", "Imtihon tayyorlov"]
+      },
+      {
+        "id":"2",
+        "nomi": "Matematika fanidan test",
+        "ta'rif": "Matematika kursi muammolarni hal qilish va tushunchalarni egallashga qaratilgan.",
+        "darajalar": ["Asosiy", "O'rta", "Yuqori"],
+        "davomiyligi": "30 min",
+        "xususiyatlar": ["Algebra", "Geometriya", "Hisoblash", "Imtihon tayyorlov"]
+      },
+      {
+        "id":"3",
+        "nomi": "Rus tili testlari",
+        "ta'rif": "Rus tilini turli darajalarda o'rganish uchun kurslar.",
+        "darajalar": ["Boshlang'ich", "O'rta", "Yuqori"],
+        "davomiyligi": "30 min",
+        "xususiyatlar": ["Grammatika", "Lug'at", "Gapirish amaliyoti", "Madaniy kontekst"]
+      },
+      {
+        "id":"4",
+        "nomi": "IQ",
+        "ta'rif": "Sizning IQ darajangizni aniqlash uchun test.",
+        "darajalar": ["Umumiy"],
+        "davomiyligi": "30 min",
+        "xususiyatlar": ["Matematika", "Mantiq", "Fan", "Til ko'nikmalari"]
+      },
+      {
+        "id":"5",
+        "nomi": "IT test",
+        "ta'rif": "Sizning IT boyicha umumiy bilimlaringizni tekshirish uchun.",
+        "darajalar": ["Umumiy"],
+        "davomiyligi": "tanlovga bog'liq",
+        "xususiyatlar": ["python","JavaScipt","Java",".Net"]
+      }
+    ]
+  }
+  

@@ -1,0 +1,33 @@
+#header_contact_part{
+    display: none !important;
+}
+
+  @media (max-width: 900px) {
+
+  .nav_links{
+    display: none !important;
+    background-image:linear-gradient(violet,blue);
+    position: absolute !important;
+    top: 75px;
+    right: 20px;
+    z-index:101;
+    flex-direction: column;
+    font-size: 12px;
+    border-radius: 10px;
+  }
+  .link_item{
+    text-align: center;
+    border: 2px solid white;
+    width: 100%;
+  }
+.enabled{
+  display: flex !important;
+}
+#pie_toggler{
+display:flex !important;
+}
+#header_contact_part{
+  display: flex !important;
+}
+  }
+  

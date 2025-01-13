@@ -1,0 +1,204 @@
+{
+    "1": [
+        {
+            "level": "Starter",
+            "course_length": "1.5-3",
+            "target": "Ingliz tiliga ilk qadam",
+            "description": "Ingliz tilining asosiy qismlarini, jumladan, oddiy so'z boyligi, grammatika va kundalik iboralarni bilish va test orqali tasdiqlash.",
+            "price": 250,
+            "certificate": "Testdan o'tganlik to'g'risida CoderKid tomonidan taqdim etiladigan sertifikat"
+        },
+        {
+            "level": "A1",
+            "course_length": "1.5-3",
+            "target": "Boshlang'ich ingliz tilini bilish darajasini aniqlash",
+            "description": "Ingliz tilining asosiy qismlarini, jumladan, oddiy so'z boyligi, grammatika va kundalik iboralarni bilish va test orqali tasdiqlash.",
+            "price": 260,
+            "certificate": "Testdan o'tganlik to'g'risida CoderKid tomonidan taqdim etiladigan sertifikat"
+        },
+        {
+            "level": "A2",
+            "course_length": "2-3",
+            "target": "Boshlang'ich darajadagi ingliz tilini bilish",
+            "description": "Oddiy suhbatlar va kundalik vaziyatlarda ishlash qobiliyatini aniqlash uchun test.",
+            "price": 270,
+            "certificate": "Testdan o'tganlik to'g'risida CoderKid tomonidan taqdim etiladigan sertifikat"
+        },
+        {
+            "level": "A2+",
+            "course_length": "2-3.5",
+            "target": "Boshlang‘ich ko‘nikmalarni yaxshilash darajasini aniqlash",
+            "description": "Grammatik va so‘z boyligini takomillashtirib, oddiy vaziyatlarda aniq ifoda qilish qobiliyatini test qilish.",
+            "price": 270,
+            "certificate": "Testdan o'tganlik to'g'risida CoderKid tomonidan taqdim etiladigan sertifikat"
+        },
+        {
+            "level": "B1",
+            "course_length": "3-4",
+            "target": "O‘rta darajadagi ingliz tilini bilish",
+            "description": "Tanish mavzularda gapirish, o‘qish va yozish qobiliyatini aniqlash uchun test.",
+            "price": 300,
+            "certificate": "Testdan o'tganlik to'g'risida CoderKid tomonidan taqdim etiladigan sertifikat"
+        },
+        {
+            "level": "B2",
+            "course_length": "3.5-4.5",
+            "target": "O‘rta-yuqori darajadagi bilimni baholash",
+            "description": "Murakkab mavzularni muhokama qilish va batafsil matnlarni tushunish qobiliyatini test qilish.",
+            "price": 350,
+            "certificate": "Testdan o'tganlik to'g'risida CoderKid tomonidan taqdim etiladigan sertifikat"
+        },
+        {
+            "level": "C1",
+            "course_length": "4-5",
+            "target": "Ingliz tilida yuqori darajadagi bilimni baholash",
+            "description": "Ingliz tilida ravon gapirishga erishish, keng so‘z boyligi va nozik muloqot ko‘nikmalariga ega bo‘lish qobiliyatini test qilish.",
+            "price": 375,
+            "certificate": "Testdan o'tganlik to'g'risida CoderKid tomonidan taqdim etiladigan sertifikat"
+        }
+    ],
+    "2": [
+        {
+            "level": "Boshlang'ich",
+            "course_length": "1-3",
+            "target": "Matematikaning asosiy ko'nikmalarini test orqali baholash",
+            "description": "Oddiy arifmetika va asosiy algebra muammolarini hal qilish qobiliyatini test qilish.",
+            "price": 200,
+            "certificate": "Testdan o'tganlik to'g'risida CoderKid tomonidan taqdim etiladigan sertifikat"
+        },
+        {
+            "level": "O'rta",
+            "course_length": "2-4",
+            "target": "Matematik bilimlarni rivojlantirish darajasini baholash",
+            "description": "Geometriya, algebra va tenglamalarni yechish ko'nikmalarini test qilish.",
+            "price": 300,
+            "certificate": "Testdan o'tganlik to'g'risida CoderKid tomonidan taqdim etiladigan sertifikat"
+        },
+        {
+            "level": "Oliy",
+            "course_length": "3-5",
+            "target": "Matematikaning ilg‘or mavzulari bo‘yicha bilimni aniqlash",
+            "description": "Chuqur algebra, trigonometriya va matematik tahlilni test orqali baholash.",
+            "price": 400,
+            "certificate": "Testdan o'tganlik to'g'risida CoderKid tomonidan taqdim etiladigan sertifikat"
+        }
+    ],
+    "3": [
+        {
+            "level": "A1",
+            "course_length": "2-3",
+            "target": "Rus tiliga ilk qadamni baholash",
+            "description": "Oddiy so‘z boyligi va kundalik iboralarni bilish qobiliyatini test qilish.",
+            "price": 200,
+            "certificate": "Testdan o'tganlik to'g'risida CoderKid tomonidan taqdim etiladigan sertifikat"
+        },
+        {
+            "level": "A2",
+            "course_length": "2.5-3.5",
+            "target": "Boshlang‘ich darajadagi rus tilini bilish",
+            "description": "Taniqli mavzularda gapirish va oddiy matnlarni tushunish qobiliyatini test qilish.",
+            "price": 250,
+            "certificate": "Testdan o'tganlik to'g'risida CoderKid tomonidan taqdim etiladigan sertifikat"
+        },
+        {
+            "level": "B1",
+            "course_length": "3-4",
+            "target": "O‘rta darajadagi rus tilini bilish",
+            "description": "Murakkabroq mavzularda o‘qish, yozish va muloqot qilish qobiliyatini test qilish.",
+            "price": 300,
+            "certificate": "Testdan o'tganlik to'g'risida CoderKid tomonidan taqdim etiladigan sertifikat"
+        },
+        {
+            "level": "B2",
+            "course_length": "3-4",
+            "target": "O‘rta-yuqori darajadagi rus tilini bilish",
+            "description": "Murakkab matnlarni tushunish va erkin muloqot qilish ko'nikmalarini test qilish.",
+            "price": 350,
+            "certificate": "Testdan o'tganlik to'g'risida CoderKid tomonidan taqdim etiladigan sertifikat"
+        }
+    ],
+    "4": [
+        {
+            "level": "IQ:Daraja 1",
+            "course_length": "10",
+            "target": "IQ bo'yicha boshlang'ich darajani aniqlash",
+            "description": "Asosiy mantiqiy fikrlash va oddiy muammolarni hal qilish testlari.",
+            "price": 250,
+            "certificate": "Testdan o'tganlik to'g'risida CoderKid tomonidan taqdim etiladigan sertifikat"
+        },
+        {
+            "level": "IQ:Daraja 2",
+            "course_length": "4-6",
+            "target": "IQ bo'yicha o'rta darajani aniqlash",
+            "description": "Murakkabroq vaziyatlarda mantiqiy fikrlash qobiliyatini baholash.",
+            "price": 400,
+            "certificate": "Testdan o'tganlik to'g'risida CoderKid tomonidan taqdim etiladigan sertifikat"
+        },
+        {
+            "level": "IQ:Daraja 3",
+            "course_length": "4-6",
+            "target": "IQ bo'yicha yuqori darajani aniqlash",
+            "description": "Murakkab muammolarni hal qilish va ilg‘or mantiqiy fikrlash qobiliyatini test qilish.",
+            "price": 400,
+            "certificate": "Testdan o'tganlik to'g'risida CoderKid tomonidan taqdim etiladigan sertifikat"
+        }
+    ],
+    "5": [
+        {
+            "level": "Python",
+            "course_length": "1.5-3",
+            "target": "Python asoslarini bilish darajasini baholash",
+            "description": "Asosiy Python sintaksisi va oddiy dasturlash muammolarini hal qilishni test qilish.",
+            "price": 250,
+            "certificate": "Testdan o'tganlik to'g'risida CoderKid tomonidan taqdim etiladigan sertifikat"
+        },
+        {
+            "level": "JavaScript",
+            "course_length": "1.5-3",
+            "target": "JavaScript asoslarini bilish darajasini baholash",
+            "description": "JavaScript sintaksisi va oddiy veb-loyihalar muammolarini hal qilishni test qilish.",
+            "price": 260,
+            "certificate": "Testdan o'tganlik to'g'risida CoderKid tomonidan taqdim etiladigan sertifikat"
+        },
+        {
+            "level": "Java",
+            "course_length": "2-3",
+            "target": "Java dasturlash tilining asoslarini bilish darajasini baholash",
+            "description": "Oddiy Java dasturlarini yozish va muammolarni hal qilish ko‘nikmalarini test qilish.",
+            "price": 270,
+            "certificate": "Testdan o'tganlik to'g'risida CoderKid tomonidan taqdim etiladigan sertifikat"
+        },
+        {
+            "level": ".Net",
+            "course_length": "2-3.5",
+            "target": ".Net asoslarini bilish darajasini baholash",
+            "description": ".Net texnologiyalari bo‘yicha dasturiy ko‘nikmalarni test qilish.",
+            "price": 270,
+            "certificate": "Testdan o'tganlik to'g'risida CoderKid tomonidan taqdim etiladigan sertifikat"
+        },
+        {
+            "level": "React",
+            "course_length": "3-4",
+            "target": "React kutubxonasini bilish darajasini baholash",
+            "description": "React komponentlari va asosiy kutubxona funksiyalarini test qilish.",
+            "price": 300,
+            "certificate": "Testdan o'tganlik to'g'risida CoderKid tomonidan taqdim etiladigan sertifikat"
+        },
+        {
+            "level": "Django",
+            "course_length": "3.5-4.5",
+            "target": "Django asoslari va veb-dasturlashni bilish darajasini baholash",
+            "description": "Django framework'ining asosiy funksiyalari va amaliy dasturiy ko‘nikmalarni test qilish.",
+            "price": 350,
+            "certificate": "Testdan o'tganlik to'g'risida CoderKid tomonidan taqdim etiladigan sertifikat"
+        },
+        {
+            "level": "TypeScript",
+            "course_length": "4-5",
+            "target": "TypeScript dasturlash tilini bilish darajasini baholash",
+            "description": "Murakkab TypeScript loyihalari uchun bilim va ko‘nikmalarni test qilish.",
+            "price": 375,
+            "certificate": "Testdan o'tganlik to'g'risida CoderKid tomonidan taqdim etiladigan sertifikat"
+        }
+    ]
+}

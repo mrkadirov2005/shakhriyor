@@ -1,0 +1,56 @@
+/* Responsive Breakpoints */
+
+/* For tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+    
+    .image {
+      height: 20rem; /* Reduce image height for tablets */
+    }
+  
+    .button {
+      font-size: 2rem; /* Adjust button size for tablets */
+    }
+  
+    .title {
+      font-size: 1.8rem; /* Adjust title size */
+    }
+  }
+  
+  /* For mobile devices (max-width: 768px) */
+  @media (max-width: 768px) {
+.image_container{
+    flex-direction: column;
+}
+    .image {
+      height: 16rem; /* Further reduce image height */
+    }
+  
+    .button {
+      font-size: 1.5rem; /* Adjust button size for mobile */
+    }
+  
+    .title {
+      font-size: 1.5rem; /* Adjust title size for mobile */
+    }
+  }
+  
+  /* For small mobile devices (max-width: 480px) */
+  @media (max-width: 480px) {
+.image_container{
+    flex-direction: column;
+}
+    .image {
+      height: 12rem; /* Minimize image height for small devices */
+      margin: 0.25rem; /* Reduce margin */
+    }
+  
+    .button {
+      font-size: 1.2rem; /* Smaller button size */
+      padding: 0.25rem 0.5rem; /* Adjust padding */
+    }
+  
+    .title {
+      font-size: 1.2rem; /* Smaller title size */
+    }
+  }
+  

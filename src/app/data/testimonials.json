@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "name": "Temurbek Murodillayev",
+      "text": "The courses offered here are fantastic! I especially loved how the instructors tailored lessons to suit my pace. I struggled with grammar before, but now I feel confident and ready to ace my exams. The mock tests and personalized feedback really made a difference!",
+      "image": "assets/images/temurbek.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Nodir Tuyg'unov",
+      "text": "I can't thank the learning center enough! The curriculum is very structured, and the teachers are always available to help. I saw noticeable improvements in my speaking skills, and the study materials were top-notch. The environment is so motivating!",
+      "image": "assets/images/nodir.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Rashidov Akobir",
+      "text": "I had tried other centers before but never achieved the results I wanted. This learning center changed everything for me! The group discussions and practice sessions boosted my confidence. It's the best investment I've made in my education.",
+      "image": "assets/images/akobir.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Sevinchbek G'aybullayev",
+      "text": "I loved every aspect of my learning journey here! The teachers genuinely care about your progress, and the small class sizes mean you get individual attention. The tips and strategies I learned were invaluable for my exam preparation.",
+      "image": "assets/images/sevinchbek.jpg"
+    }
+  ]
+  

@@ -1,0 +1,126 @@
+[
+    {
+      "id": 1,
+      "name": "G'aybullayev Sevinchbek",
+      "scores": {
+        "Listening": 8.5,
+        "Reading": 8.0,
+        "Writing": 6.5,
+        "Speaking": 6.0,
+        "Overall": 7.5
+      },
+      "image": "/assets/images/1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Raxmonov Muhammad",
+      "scores": {
+        "Listening": 8.0,
+        "Reading": 8.0,
+        "Writing": 6.5,
+        "Speaking": 6.5,
+        "Overall": 7.5
+      },
+      "image": "/assets/images/2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Davron Axtamov",
+      "scores": {
+        "Listening": 8.0,
+        "Reading": 8.0,
+        "Writing": 7.0,
+        "Speaking": 6.5,
+        "Overall": 7.5
+      },
+      "image": "/assets/images/3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Erkinov Sunnatilla",
+      "scores": {
+        "Listening": 9.0,
+        "Reading": 8.0,
+        "Writing": 7.0,
+        "Speaking": 6.5,
+        "Overall": 7.5
+      },
+      "image": "/assets/images/4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Rashidov Akobir",
+      "scores": {
+        "Listening": 8.0,
+        "Reading": 7.0,
+        "Writing": 6.5,
+        "Speaking": 6.5,
+        "Overall": 7.0
+      },
+      "image": "/assets/images/5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Rahimboyeva Gulasal",
+      "scores": {
+        "Listening": 8.0,
+        "Reading": 6.5,
+        "Writing": 7.0,
+        "Speaking": 6.0,
+        "Overall": 7.0
+      },
+      "image": "/assets/images/6.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Bobir Burxonov",
+      "scores": {
+        "Listening": 7.0,
+        "Reading": 7.0,
+        "Writing": 6.5,
+        "Speaking": 6.5,
+        "Overall": 7.0
+      },
+      "image": "/assets/images/7.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Axmatov Yoqubbek",
+      "scores": {
+        "Listening": 59,
+        "Reading": 58,
+        "Writing": 45,
+        "Speaking": 57,
+        "Overall": 55
+      },
+      "level": "B2",
+      "image": "/assets/images/8.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Shaxobov Javhar",
+      "scores": {
+        "Listening": 69,
+        "Reading": 67,
+        "Writing": 55,
+        "Speaking": 61,
+        "Overall": 63
+      },
+      "level": "B2",
+      "image": "/assets/images/9.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Umurqulov Asilbek",
+      "scores": {
+        "Listening": 57,
+        "Reading": 61,
+        "Writing": 56,
+        "Speaking": 63,
+        "Overall": 63
+      },
+      "level": "B2",
+      "image": "/assets/images/10.jpg"
+    }
+  ]
+  
