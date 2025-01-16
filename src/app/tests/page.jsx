@@ -4,13 +4,14 @@ import { motion } from "framer-motion";
 import coursesData from "./ctg.json";
 import subCourses from "./courses.json";
 import { Button } from "@mui/material";
+import General_test from "../test_scopes/global";
 
 const CourseComponent = () => {
   const [searchOption, setSearchOption] = useState();
   const [searchId, setSearchId] = useState();
   const [courses, setCourses] = useState(coursesData.kurslar);
   const [course, setCourse] = useState();
-
+ const [currentTest,setCurrentTest]=useState()
   const filterCourses = (e) => {
     const selectedCourses = coursesData.kurslar.filter(
       (item) => item.nomi === e.target.value
@@ -135,7 +136,7 @@ const CourseComponent = () => {
               <div className="courses text-black grid grid-cols-2 gap-4">
                 {searchId.map((item) => (
                   <Button
-                    onClick={() => {setCourse(item),window.localStorage.setItem("test_type",`${searchOption.id}/${item.level}`)}}
+                    onClick={() => {setCourse(item),setCurrentTest(`${searchOption.id}/${item.level}`)}}
                     className="w-full"
                     color="secondary"
                     variant="contained"
@@ -185,6 +186,14 @@ const CourseComponent = () => {
                   >
                     Aloqaga Chiqish
                   </Button>
+                  <Button
+                    variant="contained"
+                    color="secondary"
+                    onClick={() => handleLeaveRequest()}
+                    
+                  >
+                    Testni boshlash
+                  </Button>
                 </motion.div>
               ) : (
                 ""
@@ -195,6 +204,7 @@ const CourseComponent = () => {
           ""
         )}
       </motion.div>
+    {currentTest?<General_test target={currentTest}/>:""}  
     </motion.section>
   );
 };

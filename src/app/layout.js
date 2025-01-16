@@ -4,6 +4,7 @@ import "./globals.css";
 import HeaderComp from "./components/header/HeaderComp";
 import FooterComp from "./components/footer/FooterComp";
 import ContactForm from "./components/ContactForm/ContactForm";
+import General_test from "./test_scopes/global";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
