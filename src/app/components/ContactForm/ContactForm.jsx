@@ -48,7 +48,7 @@ export default function ContactForm() {
     setLoading(true)
 
     try {
-      const response = await fetch('https://script.google.com/macros/s/AKfycbwOn0JqDYxtLCFT4WAn5-ZnWzBHq8YAJlukUqoYkPlNlbSV0Q998ektOq_4N4Lv0dyk/exec', {
+      const response = await fetch('https://script.google.com/macros/s/AKfycbwvHRoaNxko4Ar6L5I_wLkRnLRYDfxGYLmX4WOS6hIUj5p8iY7zPtK5ezl39sHkIztt/exec', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
@@ -75,7 +75,7 @@ export default function ContactForm() {
     <div id='form_container' className={`w-screen hidden h-screen fixed flex-col top-0 bottom-0 left-0 right-0 overflow-y-hidden text-black bg-gradient-to-bl from-fuchsia-800 to-blue-800 flex items-center justify-center`}>
       <form onSubmit={handleSubmit} className={`w-72 rounded-lg bg-blue-700 flex flex-col items-start justify-around ${!message?"h-96":"h-450px"} p-5`}>
         <div className='w-full flex items-center justify-between'>
-          <Button variant='contained' color='warning' className='btn'>Temurbek School</Button>
+          <Button variant='contained' color='warning' className='btn'>COderKid</Button>
           <Button variant='contained' onClick={() => toggle_form()} color='error'>X</Button>
         </div>
         <label className='text-white'>Ismingizni kiriting:</label>

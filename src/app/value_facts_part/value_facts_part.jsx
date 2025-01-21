@@ -6,7 +6,7 @@ export default function Value_facts_part() {
       className="flex bg-opacity-30 flex-col w-full items-center justify-between p-10 bg-blue-800" 
     >
       <h1 className="w-full text-center text-4xl pb-16">
-        <span className="text-white font-bold">TEMURBEK SCHOOL</span> 
+        <span className="text-white font-bold">CoderKid</span> 
         <span className="text-white"> haqida </span>
         <span className="text-yellow-400 font-bold">faktlar</span>
       </h1>

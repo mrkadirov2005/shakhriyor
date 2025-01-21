@@ -2,9 +2,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import HeaderComp from "./components/header/HeaderComp";
-import FooterComp from "./components/footer/FooterComp";
 import ContactForm from "./components/ContactForm/ContactForm";
-import General_test from "./test_scopes/global";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "TEMURBEK SCHOOL",
-  description: "Official web page of TEMURBEK SCHOOL",
+  title: "CoderKid",
+  description: "Official web page of Coderkid",
 };
 export default function RootLayout({ children }) {
 
@@ -32,7 +30,6 @@ export default function RootLayout({ children }) {
        <main>
         {children}
         </main>
-        <FooterComp/>
         <ContactForm/>
       </body>
     </html>

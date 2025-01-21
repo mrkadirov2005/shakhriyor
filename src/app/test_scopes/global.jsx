@@ -6,6 +6,7 @@ import Tests_I_q from "../../../tests/iq/IQ.json";
 import Tests_math from "../../../tests/math/Math.json";
 import Tests_russian from "../../../tests/russian/Russian.json";
 import { Button } from "@mui/material";
+import ResultComp from "./components/FailureComp";
 
 export default function General_test(currentTest) {
   const test_type = currentTest.target.split("/");
@@ -47,6 +48,7 @@ export default function General_test(currentTest) {
   };
 
   return (
+    incorrects>10 || test_index==29?<ResultComp corrects={isCorrect} incorrects={incorrects} test_type={test_type}></ResultComp>:
     <section
       id="test_section"
       className="w-screen h-screen fixed z-50 top-0 left-0 bg-gradient-to-bl from-fuchsia-900 to-blue-600 flex flex-col items-center justify-center"
@@ -79,6 +81,7 @@ export default function General_test(currentTest) {
       {incorrects}
     </button>
     </div>
+    
         {displayable_test[0].test.map((inTimeTest, index) => (
           <div
             className={`w-full ${index !== test_index ? "hidden" : ""}`}
@@ -107,7 +110,7 @@ export default function General_test(currentTest) {
       </div>
       <Button
         variant="contained"
-        disabled={test_index === 30}
+        disabled={test_index === 30 || !isDisabled}
         color="success"
         className="mt-6"
         onClick={() => handleNext()}

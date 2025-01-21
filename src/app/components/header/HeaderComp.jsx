@@ -70,7 +70,7 @@ export default function HeaderComp() {
 			</motion.div>
 
 			<Button variant="contained" id="header_contact_part" color="warning" className="btn">
-				TEMURBEK SCHOOL
+				CoderKid
 			</Button>
 			<button
 				id="pie_toggler"
