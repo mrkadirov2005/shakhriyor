@@ -1,10 +1,10 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import Tests_english from "../../../tests/english/english.json";
-import Tests_I_T from "../../../tests/it/IT.json";
-import Tests_I_q from "../../../tests/iq/IQ.json";
-import Tests_math from "../../../tests/math/Math.json";
-import Tests_russian from "../../../tests/russian/Russian.json";
+import Tests_english from "../../../tests/english/english.js";
+import Tests_I_T from "../../../tests/IT/IT.js";
+import Tests_I_q from "../../../tests/IQ/IQ.js";
+import Tests_math from "../../../tests/Math/Math.js";
+import Tests_russian from "../../../tests/Russian/Russian.js";
 import { Button } from "@mui/material";
 import ResultComp from "./components/FailureComp";
 

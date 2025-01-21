@@ -1,4 +1,4 @@
-{
+const Tests_math={
     "test": [
       {
         "id": 0,
@@ -214,4 +214,4 @@
       }
     ]
   }
-  
+  export default Tests_math

@@ -1,4 +1,4 @@
-{
+const Tests_russian={
     "test": [
 
       {
@@ -217,4 +217,4 @@
       }
     ]
   }
-  
+  export default Tests_russian

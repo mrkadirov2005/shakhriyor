@@ -1,4 +1,4 @@
-{
+const Tests_I_q={
     "test": [
       {
         "id": 0,
@@ -215,3 +215,4 @@
     ]
   }
   
+  export default Tests_I_q

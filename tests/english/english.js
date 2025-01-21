@@ -1,4 +1,4 @@
-{
+ const Tests_english={
     "test": [
       {
         "id": 0,
@@ -427,4 +427,4 @@
       }
     ]
   }
-  
+  export default Tests_english

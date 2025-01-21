@@ -76,7 +76,7 @@ import {
       
     };
   
-    return corrects<50? (
+    return corrects>50? (
       <Box textAlign="center"  mt={4}>
         <Typography variant="h4" gutterBottom>
           Congratulations 🎉

@@ -1,4 +1,4 @@
-{
+const Tests_I_T={
     "test": [
       {
         "id": 0,
@@ -499,3 +499,5 @@
     ]
   }
   
+
+  export default Tests_I_T
