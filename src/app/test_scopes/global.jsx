@@ -9,7 +9,8 @@ import { Button } from "@mui/material";
 import ResultComp from "./components/FailureComp";
 
 export default function General_test(currentTest) {
-  const test_type = currentTest.target.split("/");
+  
+  const test_type = currentTest.target.currentTest.split("/");
 
   const file_system = {
     1: Tests_english,
@@ -46,6 +47,13 @@ export default function General_test(currentTest) {
     setIsDisabled(false);
     setIsCorrect(1);
   };
+  const handleStop=()=>{
+    setIsDisabled(false)
+    setIndex(0)
+    setIncorrects(0)
+    setCounts(0)
+    currentTest.toggler()
+  }
 
   return (
     incorrects>10 || test_index==29?<ResultComp corrects={isCorrect} incorrects={incorrects} test_type={test_type}></ResultComp>:
@@ -108,7 +116,8 @@ export default function General_test(currentTest) {
           </div>
         ))}
       </div>
-      <Button
+    <div className="w-full flex item-center justify-center">
+    <Button
         variant="contained"
         disabled={test_index === 30 || !isDisabled}
         color="success"
@@ -117,6 +126,15 @@ export default function General_test(currentTest) {
       >
         Next
       </Button>
+      <Button
+        variant="contained"
+        color="error"
+        className="mt-6"
+        onClick={() => handleStop()}
+      >
+        Stop
+      </Button>
+    </div>
     </section>
   );
 }

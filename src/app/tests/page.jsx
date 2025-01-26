@@ -204,7 +204,7 @@ const CourseComponent = () => {
           ""
         )}
       </motion.div>
-    {currentTest?<General_test target={currentTest}/>:""}  
+    {currentTest?<General_test toggler={setCurrentTest} target={{currentTest,setCurrentTest}}/>:""}  
     </motion.section>
   );
 };
