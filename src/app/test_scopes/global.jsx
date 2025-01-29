@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, {  useState } from "react";
 import Tests_english from "../../../tests/english/english.js";
 import Tests_I_T from "../../../tests/IT/IT.js";
 import Tests_I_q from "../../../tests/IQ/IQ.js";
@@ -19,9 +19,13 @@ export default function General_test(currentTest) {
     4: Tests_I_q,
     5: Tests_I_T,
   };
-  const displayable_test = useState(file_system[test_type[0]]);
+  const selected=useState(file_system[test_type[0]])
+  const non_filtered =selected[0].test;
+  const displayable_test=non_filtered.filter(item=>item.level==test_type[1])
+  console.log(test_type[1])
 
-  console.log(displayable_test[0].test);
+
+
   const [isDisabled, setIsDisabled] = useState(false);
   const [test_index, setIndex] = useState(0);
   const [isCorrect, setIsCorrect] = useState(1);
@@ -46,6 +50,7 @@ export default function General_test(currentTest) {
     test_index < 30 ? setIndex(test_index + 1) : alert("End of the test");
     setIsDisabled(false);
     setIsCorrect(1);
+    console.log(test_index)
   };
   const handleStop=()=>{
     setIsDisabled(false)
@@ -56,7 +61,7 @@ export default function General_test(currentTest) {
   }
 
   return (
-    incorrects>10 || test_index==29?<ResultComp corrects={isCorrect} incorrects={incorrects} test_type={test_type}></ResultComp>:
+    incorrects>4 || test_index==10?<ResultComp corrects={counts} incorrects={incorrects} test_type={test_type}></ResultComp>:
     <section
       id="test_section"
       className="w-screen h-screen fixed z-50 top-0 left-0 bg-gradient-to-bl from-fuchsia-900 to-blue-600 flex flex-col items-center justify-center"
@@ -90,7 +95,7 @@ export default function General_test(currentTest) {
     </button>
     </div>
     
-        {displayable_test[0].test.map((inTimeTest, index) => (
+        {displayable_test.map((inTimeTest, index) => (
           <div
             className={`w-full ${index !== test_index ? "hidden" : ""}`}
             key={index}
@@ -119,7 +124,7 @@ export default function General_test(currentTest) {
     <div className="w-full flex item-center justify-center">
     <Button
         variant="contained"
-        disabled={test_index === 30 || !isDisabled}
+        disabled={!isDisabled}
         color="success"
         className="mt-6"
         onClick={() => handleNext()}

@@ -134,13 +134,13 @@ const CourseComponent = () => {
             </p>
             {searchId ? (
               <div className="courses text-black grid grid-cols-2 gap-4">
-                {searchId.map((item) => (
+                {searchId.map((item,index) => (
                   <Button
                     onClick={() => {setCourse(item),setCurrentTest(`${searchOption.id}/${item.level}`)}}
                     className="w-full"
                     color="secondary"
                     variant="contained"
-                    key={item.level}
+                    key={index}
                   >
                     {item.level}
                   </Button>
