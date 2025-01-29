@@ -19,7 +19,7 @@ export default function ImageSlider() {
     "assets/images/hippo_all.jpg",
     "/9.jpg",
   ];
-
+ 
   const [imageNumber, setImageNumber] = useState(0);
   const [displayImages, setDisplayImages] = useState([images[0], images[1]]);
 
