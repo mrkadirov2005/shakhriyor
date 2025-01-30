@@ -73,7 +73,7 @@ import CertificatePart from "./CertificatePart";
       const result = await response.json();
     };
     
-    return isCertificate && corrects>7?<CertificatePart/> :corrects>7 && !isCertificate? (
+    return isCertificate && corrects>7?<CertificatePart test_type ={test_type} /> :corrects>7 && !isCertificate? (
       <div className="w-screen h-screen bg-gradient-to-b from-fuchsia-600 to-purple-950 fixed text-white z-50 flex flex-col items-center top-0 left-0 justify-center px-6 text-center">
       <div className="bg-white bg-opacity-10 p-6 rounded-2xl shadow-lg backdrop-blur-md flex flex-col items-center w-full max-w-lg">
         <h2 className="text-3xl font-bold mb-4 text-green-300">🎉 Congratulations! 🎉</h2>

@@ -61,7 +61,7 @@ export default function General_test(currentTest) {
   }
 
   return (
-    incorrects>4 || test_index==10?<ResultComp corrects={counts} incorrects={incorrects} test_type={test_type}></ResultComp>:
+    incorrects>4 || test_index==10?<ResultComp  corrects={counts} incorrects={incorrects} test_type={test_type}></ResultComp>:
     <section
       id="test_section"
       className="w-screen h-screen fixed z-50 top-0 left-0 bg-gradient-to-bl from-fuchsia-900 to-blue-600 flex flex-col items-center justify-center"
