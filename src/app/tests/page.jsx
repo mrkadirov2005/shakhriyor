@@ -5,6 +5,7 @@ import coursesData from "./ctg.json";
 import subCourses from "./courses.json";
 import { Button } from "@mui/material";
 import General_test from "../test_scopes/global";
+import Script from "next/script";
 
 const CourseComponent = () => {
   const [searchOption, setSearchOption] = useState();
@@ -38,6 +39,11 @@ const CourseComponent = () => {
       exit={{ opacity: 0 }} 
       className="flex flex-col w-full items-center justify-start bg-gradient-to-br from-blue-950 to-purple-900 min-h-screen p-5"
     >
+       <Script
+        strategy="afterInteractive"
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4770078592564960"
+        crossOrigin="anonymous"
+      />
       <motion.h1 
         initial={{ y: -50, opacity: 0 }} 
         animate={{ y: 0, opacity: 1 }} 

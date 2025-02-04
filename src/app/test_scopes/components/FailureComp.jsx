@@ -13,6 +13,7 @@ import {
 
   import React, {  useState } from "react";
 import CertificatePart from "./CertificatePart";
+import Script from "next/script";
   
   export default function ResultComp({ corrects, incorrects, test_type }) {
 
@@ -75,6 +76,11 @@ import CertificatePart from "./CertificatePart";
     
     return isCertificate && corrects>7?<CertificatePart test_type ={test_type} /> :corrects>7 && !isCertificate? (
       <div className="w-screen h-screen bg-gradient-to-b from-fuchsia-600 to-purple-950 fixed text-white z-50 flex flex-col items-center top-0 left-0 justify-center px-6 text-center">
+         <Script
+        strategy="afterInteractive"
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4770078592564960"
+        crossOrigin="anonymous"
+      />
       <div className="bg-white bg-opacity-10 p-6 rounded-2xl shadow-lg backdrop-blur-md flex flex-col items-center w-full max-w-lg">
         <h2 className="text-3xl font-bold mb-4 text-green-300">🎉 Congratulations! 🎉</h2>
         <p className="text-lg mb-6 leading-relaxed text-gray-200">

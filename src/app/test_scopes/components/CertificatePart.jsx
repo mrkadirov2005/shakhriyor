@@ -4,6 +4,7 @@ import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react'
 import jsPDF from "jspdf"
 import html2canvas from "html2canvas"
+import Script from 'next/script';
 
 export default function CertificatePart({test_type}) {
     
@@ -30,11 +31,11 @@ export default function CertificatePart({test_type}) {
     }
     
 
-
     return     !openDialog? (
         <div
         className="w-screen  flex-col flex items-center justify-center h-screen z-50 bg-gradient-to-tr  from-fuchsia-600  via-violet-950 fixed"
         >
+      
           <h3>Submit Your Results</h3>
           <input
            className="text-black"

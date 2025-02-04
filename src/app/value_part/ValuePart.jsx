@@ -2,6 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Script from "next/script";
 
 export default function WelcomeSection() {
   return (
@@ -12,6 +13,11 @@ export default function WelcomeSection() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
+         <Script
+        strategy="afterInteractive"
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4770078592564960"
+        crossOrigin="anonymous"
+      />
         <h1 className="text-3xl md:text-4xl font-bold  mb-4">
           Welcome to Your Testing Journey!
         </h1>
