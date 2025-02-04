@@ -80,7 +80,7 @@ import Script from "next/script";
         strategy="afterInteractive"
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4770078592564960"
         crossOrigin="anonymous"
-      />
+      ></Script>
       <div className="bg-white bg-opacity-10 p-6 rounded-2xl shadow-lg backdrop-blur-md flex flex-col items-center w-full max-w-lg">
         <h2 className="text-3xl font-bold mb-4 text-green-300">🎉 Congratulations! 🎉</h2>
         <p className="text-lg mb-6 leading-relaxed text-gray-200">

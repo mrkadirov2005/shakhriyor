@@ -17,7 +17,7 @@ export default function WelcomeSection() {
         strategy="afterInteractive"
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4770078592564960"
         crossOrigin="anonymous"
-      />
+      ></Script>
         <h1 className="text-3xl md:text-4xl font-bold  mb-4">
           Welcome to Your Testing Journey!
         </h1>

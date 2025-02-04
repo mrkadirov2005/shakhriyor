@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
     <html lang="en" id="HTML_item" className="general">
     <head>
     <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4770078592564960"
-     crossorigin="anonymous"></script>
+     crossorigin="anonymous"></Script>
     </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}

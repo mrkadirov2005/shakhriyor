@@ -43,7 +43,7 @@ const CourseComponent = () => {
         strategy="afterInteractive"
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4770078592564960"
         crossOrigin="anonymous"
-      />
+      ></Script>
       <motion.h1 
         initial={{ y: -50, opacity: 0 }} 
         animate={{ y: 0, opacity: 1 }} 
