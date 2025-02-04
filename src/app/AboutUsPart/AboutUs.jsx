@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function AboutUs() {
   return (
@@ -38,7 +39,7 @@ export default function AboutUs() {
           Whether you're mastering a new skill or refining what you already know, 
           we're here to support your journey."
         </p>
-        <p className="text-sm text-gray-500 mt-4">
+        <p className="text-sm text-gray-200 mt-4">
           Join the Coder Kid family and take the first step toward a brighter future!
         </p>
       </motion.div>
@@ -48,9 +49,7 @@ export default function AboutUs() {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.6 }}
       >
-        <button className="px-6 py-3 bg-blue-600 text-white rounded-md shadow-md hover:bg-blue-700 transition">
-          Get Started
-        </button>
+      
       </motion.div>
     </div>
   );

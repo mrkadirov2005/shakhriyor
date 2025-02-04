@@ -13,7 +13,7 @@ export default function CertificatePart({test_type}) {
     const [name,setName]=useState("");
     const [lastName,setLastname]=useState("");
     const date=new Date().getDate()
-    const month=new Date().getMonth()
+    const month=new Date().getMonth()+1
     const year=new Date().getFullYear()
     console.log(date,month,year)
 
@@ -70,33 +70,34 @@ export default function CertificatePart({test_type}) {
     </div>
 
         <div  className="w-screen h-screen flex items-center justify-center bg-gray-100">
-  <div id='certificate' className="bg-gradient-to-br from from-fuchsia-950 to-blue-900 shadow-xl rounded-lg p-10 w-[1200px] h-[600px] border-4 border-green-500 text-center relative">
+  <div id='certificate' className="bg-gradient-to-br  from from-fuchsia-950 to-blue-900 shadow-xl rounded-lg p-10 w-[1200px] h-[700px] border-4 border-green-500 text-center relative">
+  
+    <div className='w-full'><img src='./shakhriyor/logo.jpg' className='w-32 m-auto rounded-full mb-10 '></img></div>
+    <h1 className="text-5xl font-bold text-yellow-600">Level Completion Certificate</h1>
+    <p className="text-gray-300 text-3xl mt-2 bg-opacity-20">This is awarded to</p>
     
-    <h1 className="text-4xl font-bold text-yellow-600">Level Completion Certificate</h1>
-    <p className="text-gray-600 text-lg mt-2 bg-opacity-20">This is awarded to</p>
-    
-    <h2 className="text-3xl font-semibold mt-4 text-white" id="userName">{name} {lastName}</h2>
+    <h2 className="text-5xl font-semibold mt-4 text-white" id="userName">{name} {lastName}</h2>
 
-    <p className="text-gray-600 text-lg mt-4">
+    <p className="text-gray-300 text-2xl mt-4">
       for successfully completing <span className="font-semibold text-yellow-500" id="levelName">{test_type[1]}</span>.
     </p>
 
-    <p className="text-gray-600 text-lg mt-2">Awarded on <span id="completionDate">{date+" "+month+" "+year}</span></p>
+    <p className="text-gray-300 text-xl mt-2">Awarded on <span id="completionDate">{date+" / "+month+" / "+year}</span></p>
 
     <div className="mt-6">
-      <Button variant='contained' color='success' className="bg-yellow-500 flex items-center m-auto justify-center w-72 text-black px-4 py-2 rounded-full text-lg font-semibold">
+      <Button variant='contained' color='success' className="bg-yellow-500 flex items-center m-auto justify-center w-72 text-black px-4 py-2 rounded-full text-3xl font-semibold">
         Level  Completed
       </Button>
     </div>
 
     <div className="flex justify-between items-center mt-10 px-10">
       <div className="text-center">
-        <p className="text-gray-600 mt-2">Instructor</p>
-        <h1 className='underline'>Davronov.SH</h1>
+        <p className="text-gray-300 mt-2">Instructor</p>
+        <h1 className=''>Davronov Shakhriyor</h1>
       </div>
       <div className="text-center">
-        <h3 className='text-gray-600'>Date:</h3>
-        <p className=" mt-2 underline">{date+"/"+month+"/"+year}</p>
+        <h3 className='text-gray-300'>Date:</h3>
+        <p className=" mt-2 ">{date+"/"+month+"/"+year}</p>
       </div>
     </div>
 
